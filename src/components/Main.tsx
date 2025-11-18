@@ -9,6 +9,16 @@ import '../assets/styles/Main.scss';
 
 function Main() {
 
+  const scrollToSection = () => {
+    const expertiseElement = document.getElementById("projects");
+    if (expertiseElement) {
+      expertiseElement.scrollIntoView({ behavior: 'smooth' });
+      console.log('Scrolling to:', expertiseElement);  // Debugging: Ensure the element is found
+    } else {
+      console.error('Element with id "expertise" not found');  // Debugging: Log error if element is not found
+    }
+  };
+
   return (
     <div className="container">
       
@@ -27,10 +37,10 @@ function Main() {
           <p>Hello! I am an engineer interested in space, robots, and space robots. 
             I currently work at Starfish Space, an in-orbit satellite servicing startup in Seattle. </p>
           <p>I have a Master of Science in Robotics from Carnegie Mellon University and a Bachelor of Science in Mechanical Engineering from the California Institute of Technology. 
-            My past experience includes building a bipedal robot, designing a percussive drill for lunar regolith, and making robot arms that can solve jigsaw puzzles and play Bananagrams.
+            My past experience includes building a bipedal robot, designing a percussive drill for lunar regolith, and creating robot arms that can solve jigsaw puzzles and play Bananagrams.
             For more details, refer to my 
             <a target='_blank' rel='noopener noreferrer' 
-            href="https://drive.google.com/file/d/1ioJZOdRj4lQY6y68mH5pT8S_YvrGLlZZ/view?usp=sharing"> <u>CV.</u></a>
+            href="https://drive.google.com/file/d/1ioJZOdRj4lQY6y68mH5pT8S_YvrGLlZZ/view?usp=sharing"> <u>CV</u>.</a>
             </p>
           <div className="mobile_social_icons">
             <a href="https://github.com/sofiakwok" target="_blank" rel="noreferrer"><GitHubIcon/></a>
