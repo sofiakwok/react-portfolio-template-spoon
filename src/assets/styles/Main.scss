@@ -40,12 +40,21 @@
         font-size: 1em;
         margin-block-start: 0px;
         margin-block-end: 0px;
+        font-family: "Verdana", 'Courier Prime', "IBM Plex Sans", "Roboto", sans-serif;
+    }
+
+    a {
+        font-size: 1em;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        font-family: "Verdana", 'Courier Prime', "IBM Plex Sans", "Roboto", sans-serif;;
     }
 
     h1 {
         font-size: 5em;
         margin-block-start: 0px;
         margin-block-end: 0px;
+        font-family: "Verdana", 'Courier Prime', "IBM Plex Sans", "Roboto", sans-serif;;
     }
 }
 
@@ -94,7 +103,7 @@
 
         body {
             width: 100%;
-            font-family: "Comic Sans", "Droid Sans", "Roboto", "Oxygen", sans-serif;
+            font-family: "Verdana", 'Courier Prime', "IBM Plex Sans", "Roboto Serif", "Roboto";
         }
 
         .about {

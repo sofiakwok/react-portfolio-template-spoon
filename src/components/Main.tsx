@@ -23,8 +23,7 @@ function Main() {
             <a href="https://drive.google.com/file/d/1ioJZOdRj4lQY6y68mH5pT8S_YvrGLlZZ/view?usp=sharing" target="_blank" rel="noreferrer"><Article/></a>
           </div>
           <h1>Sofia Kwok</h1>
-          <p>Hello! I am an engineer interested in space, robots, and space robots. 
-            I currently work at <a target='_blank' rel='noopener noreferrer' 
+          <p>Hello! I am a robotics engineer currently working at <a target='_blank' rel='noopener noreferrer' 
             href="https://www.starfishspace.com/"> <u>Starfish Space</u>, </a>
             an in-orbit satellite servicing startup in Seattle.</p>
           <p>I have a Master of Science in Robotics from Carnegie Mellon University and a Bachelor of Science in Mechanical Engineering from the California Institute of Technology. 
